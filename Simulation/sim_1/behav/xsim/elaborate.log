@@ -1,0 +1,27 @@
+Vivado Simulator 2019.2
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: D:/Xilinx/Vivado/2019.2/bin/unwrapped/win64.o/xelab.exe -wto aba52fd16e3d45c0894d5b384d35f795 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot tb_TopUnit_behav xil_defaultlib.tb_TopUnit -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package ieee.math_real
+Compiling architecture archtop_fsm of entity xil_defaultlib.TOP_FSM [\TOP_FSM(w=28)\]
+Compiling architecture archreg of entity xil_defaultlib.MemRAM [\MemRAM(w=28)\]
+Compiling architecture archbut of entity xil_defaultlib.BUT [\BUT(w=30)\]
+Compiling architecture arch_fsm_but of entity xil_defaultlib.FSM_But [fsm_but_default]
+Compiling architecture archbut_unit of entity xil_defaultlib.BUT_Unit [\BUT_Unit(w=30)\]
+Compiling architecture behavioral of entity xil_defaultlib.Unit_Op [\Unit_Op(w=30)\]
+Compiling architecture behavioral of entity xil_defaultlib.FSM_stage [fsm_stage_default]
+Compiling architecture behavioral of entity xil_defaultlib.FFT8_UNIT [\FFT8_UNIT(w=30)\]
+Compiling architecture arcoutregisters of entity xil_defaultlib.OutRegisters [\OutRegisters(w=28)\]
+Compiling architecture archcom of entity xil_defaultlib.COM [\COM(w=28)\]
+Compiling architecture archtopunit of entity xil_defaultlib.TopUnit [\TopUnit(w=28)\]
+Compiling architecture arch of entity xil_defaultlib.tb_topunit
+Built simulation snapshot tb_TopUnit_behav

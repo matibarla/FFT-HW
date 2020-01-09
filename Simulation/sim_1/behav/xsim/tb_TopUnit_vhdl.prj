@@ -1,0 +1,17 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../FFT8.srcs/sources_1/imports/Download/BUT.vhd" \
+"../../../../FFT8.srcs/sources_1/imports/Download/BUT_Unit.vhd" \
+"../../../../FFT8.srcs/sources_1/imports/Download/COM.vhd" \
+"../../../../FFT8.srcs/sources_1/new/FFT8_UNIT.vhd" \
+"../../../../FFT8.srcs/sources_1/imports/Download/FSM.vhd" \
+"../../../../FFT8.srcs/sources_1/imports/Download/MemRAM.vhd" \
+"../../../../FFT8.srcs/sources_1/imports/Download/OutRegisters.vhd" \
+"../../../../FFT8.srcs/sources_1/imports/Download/TopUnit.vhd" \
+"../../../../FFT8.srcs/sources_1/imports/Download/Top_FSM.vhd" \
+"../../../../FFT8.srcs/sources_1/new/Unit_Op.vhd" \
+"../../../../FFT8.srcs/sources_1/imports/new/fft8_vf.vhd" \
+"../../../../FFT8.srcs/sources_1/imports/Download/tb_TopUnit.vhd" \
+
+# Do not sort compile order
+nosort
